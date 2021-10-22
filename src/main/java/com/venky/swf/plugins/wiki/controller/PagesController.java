@@ -94,7 +94,7 @@ public class PagesController extends ModelController<Page>{
 	
 	protected View view(Page page){
 		if (page.isAccessibleBy(getSessionUser())){
-			return dashboard(createMarkdownView(getPath(),page));
+			return createMarkdownView(getPath(),page);
 		}else {
 			throw new AccessDeniedException();
 		}

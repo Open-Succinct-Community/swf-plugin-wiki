@@ -47,7 +47,7 @@ public class MarkDownView extends HtmlView{
 		container.addControl(markdown);
 		PegDownProcessor p = new PegDownProcessor();
 		String html = p.markdownToHtml(StringUtil.read(page.getBody()));
-		markdown.setText(html);
+		markdown.setText(html,false);
 		
 	}
 	@Override
