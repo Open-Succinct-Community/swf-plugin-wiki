@@ -18,7 +18,7 @@ import com.venky.swf.views.controls.page.layout.Glyphicon;
 import com.venky.swf.views.controls.page.layout.Panel;
 import com.venky.swf.views.controls.page.layout.Panel.PanelHeading;
 import com.venky.swf.views.model.ModelListView;
-import org.pegdown.PegDownProcessor;
+import com.venky.swf.plugins.wiki.util.PegDownProcessor;
 
 
 public class MarkDownView extends HtmlView{
