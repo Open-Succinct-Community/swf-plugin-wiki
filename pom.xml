@@ -4,8 +4,7 @@
   <parent>
         <groupId>com.github.venkatramanm.swf-all</groupId>
         <artifactId>swf-all</artifactId>
-        <version>${revision}</version>
-        <relativePath>../swf-all/pom.xml</relativePath>
+        <version>2.8</version>
     </parent>
 
 
@@ -43,6 +42,7 @@
   <artifactId>swf-plugin-wiki</artifactId>
   <name>Succinct Wiki</name>
   <description>Succinct Wiki Plugin</description>
+  <version>2.8-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <url>http://github.com/venkatramanm/swf-plugin-wiki</url>
@@ -91,12 +91,12 @@
   	<dependency>
   		<groupId>com.github.venkatramanm.swf-all</groupId>
   		<artifactId>swf</artifactId>
-        <version>${project.version}</version>
+        <version>${project.parent.version}</version>
   	</dependency>
   	<dependency>
   		<groupId>com.github.venkatramanm.swf-all</groupId>
   		<artifactId>swf-plugin-collab</artifactId>
-        <version>${project.version}</version>
+        <version>${project.parent.version}</version>
   	</dependency>
   </dependencies>
 </project>
