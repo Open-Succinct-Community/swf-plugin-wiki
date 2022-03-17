@@ -11,7 +11,6 @@
   <name>Succinct Wiki</name>
   <description>Succinct Wiki Plugin</description>
   <packaging>jar</packaging>
-
   <url>http://github.com/venkatramanm/swf-plugin-wiki</url>
 
   <licenses>
